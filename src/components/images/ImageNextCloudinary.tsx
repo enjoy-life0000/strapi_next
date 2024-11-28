@@ -114,7 +114,7 @@ const NextCloudinaryImage = ({
         priority={true}
         {...imageConfig}
         {...props}
-        alt={alt?alt : 'default'}
+        alt={alt ? alt : 'default'}
         style={{ width: '100%', height: 'auto' }}
         onLoad={() => setIsLoading(false)}
         onError={(e) => {
